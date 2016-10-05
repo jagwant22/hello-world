@@ -1,0 +1,13 @@
+import random
+
+def getInput(name):
+
+    new_num= random.randint(6,15)
+
+    print name+ " ",new_num
+    return name+ " ",new_num
+
+
+my_name = raw_input("Enter name ")
+
+getInput(my_name)
